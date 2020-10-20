@@ -1,0 +1,56 @@
+body{
+  margin-top: 70px;
+}
+
+.linktosite{
+  color:blue;
+}
+.linktosite:hover{
+  text-decoration: underline;
+}
+
+.projects img{
+  height: auto;
+  width: 250px;
+  margin-top: 25px;
+}
+
+.projects > thumbnail {}
+
+a, a:hover{
+  text-decoration: none;
+  color:black;
+}
+
+/* ======== NAVBAR ======== */
+.navbar-default {
+    background-color: #e14938; /* ori: #F8F8F8; */
+    border-color: #e7e7e7; /* #e7e7e7; */
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #ffffff; /* #777; */
+    border-right: 1px solid black;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff; /* #5E5E5E; */
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff; /* #777; */
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333; /* #333; */
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff; /* #555; */
+    background-color: #b8312f; /* #e7e7e7; */
+}
+
+.btn{
+  margin-bottom:10px;
+}
